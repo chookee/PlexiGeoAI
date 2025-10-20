@@ -1,4 +1,12 @@
 # Plexi GeoAI Platform v0.2  
+[![Project Status](https://img.shields.io/badge/status-active-green.svg)](https://github.com/<твой_логин>/plexi-geoai-platform)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
+[![Docs Build](https://img.shields.io/badge/docs-Sphinx-blue.svg)](https://github.com/<твой_логин>/plexi-geoai-platform/tree/main/docs)
+[![Python](https://img.shields.io/badge/python-3.11%2B-orange.svg)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey.svg)]()
+
+*An open, modular AI‑powered ecosystem for quantitative seismic, rock physics, and reservoir interpretation.*
+# Plexi GeoAI Platform v0.2  
 *An open, modular AI‑powered system for quantitative seismic, rock physics, reservoir and geostatistical interpretation — integrating Fortran HPC cores with Python and modern ML.*
 
 ---
