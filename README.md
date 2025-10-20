@@ -1,53 +1,52 @@
 # Plexi GeoAI Platform v0.2  
-[![Project Status](https://img.shields.io/badge/status-active-green.svg)](https://github.com/<твой_логин>/plexi-geoai-platform)
+
+[![Project Status](https://img.shields.io/badge/status-active-green.svg)](https://github.com/chookee/PlexiGeoAI)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
-[![Docs Build](https://img.shields.io/badge/docs-Sphinx-blue.svg)](https://github.com/<твой_логин>/plexi-geoai-platform/tree/main/docs)
+[![Docs Build](https://img.shields.io/badge/docs-Sphinx-blue.svg)](https://github.com/chookee/PlexiGeoAI/tree/main/docs)
 [![Python](https://img.shields.io/badge/python-3.11%2B-orange.svg)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey.svg)]()
 
-*An open, modular AI‑powered ecosystem for quantitative seismic, rock physics, and reservoir interpretation.*
-# Plexi GeoAI Platform v0.2  
-*An open, modular AI‑powered system for quantitative seismic, rock physics, reservoir and geostatistical interpretation — integrating Fortran HPC cores with Python and modern ML.*
+*An open, modular AI‑powered ecosystem for quantitative seismic, rock physics, reservoir and geostatistical interpretation.*
 
 ---
 
 ## 🌍 Vision  
-Plexi GeoAI соединяет точность физических моделей и гибкость искусственного интеллекта, создавая единую экосистему для численного анализа, обучения и интерпретации геонаучных данных.  
-Проект совмещает Fortran‑ядра, Python‑фреймворк и RAG‑базу знаний, превращая классическую интерпретацию в осмысленный, объяснимый процесс.
+Plexi GeoAI соединяет физику, данные и интеллект в единой платформе.  
+Цель — создать экосистему для интерпретации сейсмических и петрофизических данных, где модели и AI работают на уровне научных смыслов, а не просто чисел.
 
 ---
 
 ## 🧠 Core Modules  
 
-| Модуль | Предметная область | Назначение |
-|--------|--------------------|-------------|
-| **Seismic Core** | Сейсмика и атрибуты | Импорт ZGY/SEGY, 3D вьюеры, спектральный анализ, PhaseMismatch plugin |
-| **Rock Physics Core** | Рок‑физика | Узловой редактор DEM/SCA/Gassmann, AutoML петроупругих моделей |
-| **QI & Inversion Core** | Количественная интерпретация | Байесовская инверсия, facies / uncertainty моделирование |
-| **GeoStat Core** | Геостатистика | SGS/MPS симуляции, вариограммы, ко‑симуляции с атрибутами |
-| **GeoMech Core** | Геомеханика | Давления (Eaton/Bowers), напряжения и уплотнение |
-| **Knowledge Core (RAG)** | Научная память | Каталог 24 классических источников (Mavko, Vernik, Doyen, Dutta и др.) |
-| **GeoAI Assistants** | Искусственный интеллект | Пять агентов (Seismic, RockPhysics, QI, GeoStat, GeoMech) для объяснимых анализов |
+| Модуль | Область | Назначение |
+|--------|----------|------------|
+| **Seismic Core** | Сейсмика и атрибуты | Импорт ZGY/SEGY, спектральный анализ, 3D визуализация |
+| **Rock Physics Core** | Петрофизика | DEM, SCA, Gassmann, анизотропия, узловой редактор |
+| **QI & Inversion Core** | Количественная интерпретация | Байесовская инверсия, фейси, неопределённость |
+| **GeoStat Core** | Геостатистика | SGS/MPS симуляции, вариограммы, ко‑симуляции |
+| **GeoMech Core** | Геомеханика | Давление Eaton/Bowers, stress path, уплотнение |
+| **Knowledge Core (RAG)** | Знания и формулы | База 24 классических источников (Mavko, Vernik, Doyen, Dutta и др.) |
+| **GeoAI Assistants** | Искусственный интеллект | Пять интерактивных агентов (Seismic, RockPhysics, QI, GeoStat, GeoMech) |
 
 ---
 
 ## 🛠️ Tech Stack  
-Python 3.11 | Fortran (f2py / OpenMP) | PySide6 Qt 6.7 | NumPy | xarray | Dask | VisPy | RAG AI | Sphinx | Poetry | CI/CD.  
+Python 3.11 • Fortran (f2py/OpenMP) • PySide6 Qt 6.7 • NumPy • xarray • Dask • VisPy • RAG AI • Sphinx Docs  
 
 ---
 
 ## 📅 Roadmap v0.2  
 
-| Этап | Цель | Состояние |
-|------|------|-----------|
-| E0 | Архитектура Knowledge Core | ✅ done |
-| E1 | Векторная индексация RAG и BM25 поиск | ⏳ in progress |
-| E2 | Ассистенты Seismic и RockPhysics | planned |
-| E3 | Ассистенты QI и GeoStat + AI Insights Dock | planned |
-| E4 | Геомеханика и Fortran Pressure/Stress | planned |
-| E5 | Интеграция и демо‑сборка v0.2 | scheduled |
+| Этап | Цель | Статус |
+|------|------|--------|
+| E0 | Архитектура Knowledge Core | ✅ Done |
+| E1 | Векторная индексация RAG / BM25 поиск | ⏳ In progress |
+| E2 | Ассистенты Seismic + RockPhysics | 💡 Planned |
+| E3 | Ассистенты QI и GeoStat + AI Insights Dock | 💡 Planned |
+| E4 | GeoMech ядра давления/напряжений | 💡 Planned |
+| E5 | Демо‑версия v0.2 и Sphinx Docs | 💡 Planned |
 
-Ориентировочный срок до демо: ≈ 30 недель.  
+Всего ≈ 30 недель до демо‑релиза.  
 
 ---
 
@@ -56,38 +55,26 @@ Python 3.11 | Fortran (f2py / OpenMP) | PySide6 Qt 6.7 |�
 ```
 plexi-geoai-platform/
 │
+├── README.md
+├── LICENSE
+│
 ├── plexi_geoai/
-│   ├── core/            # seismic, petroelastic, geostat, inversion modules
-│   ├── ai_core/         # знаниевое ядро и ассистенты
-│   ├── ui/              # Qt-интерфейс и виджеты
-│   ├── fortran_src/     # DEM, Gassmann, AVO, SGS, GeoPressure
 │   └── __init__.py
 │
-├── knowledge_root/      # RAG-библиотека дисциплин
-│   ├── seismic_core/
-│   ├── rock_physics_core/
-│   ├── qi_core/
-│   ├── geostat_core/
-│   ├── geomech_core/
-│   └── heterogeneous_media/
-│
-├── examples/            # демо-проекты и синтетика
-├── tests/               # pytest-наборы
-├── docs/                # sphinx-документация
-├── LICENSE
-└── README.md
+└── knowledge_root/
+    ├── README.md
+    └── .keep
 ```
+
+Эта минимальная структура — базис для дальнейшего развития.  
+В будущем сюда добавятся Fortran‑модули, AI‑ядра и RAG‑индекс.
 
 ---
 
 ## 📘 License  
-MIT License — свободно для науки, образования и open research инициатив.  
+MIT License — свободно для науки, образования и open research инициатив.  
 
 ---
 
 _“From wavefield to insight — Plexi GeoAI unites physics and intelligence.”_
 ```
-
-***
-
-
