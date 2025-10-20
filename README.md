@@ -11,7 +11,7 @@
 ---
 
 ## 🌍 Vision  
-Plexi GeoAI соединяет физику, данные и интеллект в единой платформе.  
+Plexi OpenGeoAI соединяет физику, данные и интеллект в единой платформе.  
 Цель — создать экосистему для интерпретации сейсмических и петрофизических данных, где модели и AI работают на уровне научных смыслов, а не просто чисел.
 
 ---
@@ -25,7 +25,7 @@ Plexi GeoAI соединяет физику, данные и инте�
 | **QI & Inversion Core** | Количественная интерпретация | Инверсия, неопределённость |
 | **GeoStat Core** | Геостатистика | SGS/MPS симуляции, вариограммы, ко‑симуляции |
 | **GeoMech Core** | Геомеханика | Давление Eaton/Bowers, stress path, уплотнение |
-| **Knowledge Core (RAG)** | Знания и формулы | 
+| **Knowledge Core (RAG)** | Знания и формулы | RAG база |
 | **GeoAI Assistants** | Искусственный интеллект | Пять интерактивных агентов (Seismic, RockPhysics, QI, GeoStat, GeoMech) |
 
 ---
@@ -39,7 +39,7 @@ Python 3.11 • Fortran (f2py/OpenMP) • PySide6 Qt 6.7 •�
 
 | Этап | Цель | Статус |
 |------|------|--------|
-| E0 | Архитектура Plexi Core I | ✅ Done |
+| E0 | Архитектура Plexi CORE I | ✅ Done |
 | E1 | Векторная индексация RAG / BM25 поиск | ⏳ In progress |
 | E2 | Ассистенты Seismic + RockPhysics | 💡 Planned |
 | E3 | Ассистенты QI и GeoStat + AI Insights Dock | 💡 Planned |
