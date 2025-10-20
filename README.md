@@ -1,4 +1,4 @@
-# Plexi GeoAI Platform v0.2  
+# Plexi GeoAI Platform  
 
 [![Project Status](https://img.shields.io/badge/status-active-green.svg)](https://github.com/chookee/PlexiGeoAI)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
@@ -21,11 +21,11 @@ Plexi GeoAI соединяет физику, данные и инте�
 | Модуль | Область | Назначение |
 |--------|----------|------------|
 | **Seismic Core** | Сейсмика и атрибуты | Импорт ZGY/SEGY, спектральный анализ, 3D визуализация |
-| **Rock Physics Core** | Петрофизика | DEM, SCA, Gassmann, анизотропия, узловой редактор |
-| **QI & Inversion Core** | Количественная интерпретация | Байесовская инверсия, фейси, неопределённость |
+| **Rock Physics Core** | Рок-физика | DEM, SCA, Gassmann, анизотропия, редактор моделей, RP autoML |
+| **QI & Inversion Core** | Количественная интерпретация | Инверсия, неопределённость |
 | **GeoStat Core** | Геостатистика | SGS/MPS симуляции, вариограммы, ко‑симуляции |
 | **GeoMech Core** | Геомеханика | Давление Eaton/Bowers, stress path, уплотнение |
-| **Knowledge Core (RAG)** | Знания и формулы | База 24 классических источников (Mavko, Vernik, Doyen, Dutta и др.) |
+| **Knowledge Core (RAG)** | Знания и формулы | 
 | **GeoAI Assistants** | Искусственный интеллект | Пять интерактивных агентов (Seismic, RockPhysics, QI, GeoStat, GeoMech) |
 
 ---
@@ -39,7 +39,7 @@ Python 3.11 • Fortran (f2py/OpenMP) • PySide6 Qt 6.7 •�
 
 | Этап | Цель | Статус |
 |------|------|--------|
-| E0 | Архитектура Knowledge Core | ✅ Done |
+| E0 | Архитектура Plexi Core I | ✅ Done |
 | E1 | Векторная индексация RAG / BM25 поиск | ⏳ In progress |
 | E2 | Ассистенты Seismic + RockPhysics | 💡 Planned |
 | E3 | Ассистенты QI и GeoStat + AI Insights Dock | 💡 Planned |
